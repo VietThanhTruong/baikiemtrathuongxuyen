@@ -1,6 +1,2 @@
-import { registerRootComponent } from "expo";
-
-import App from "./src/App.jsx";
-
-// Entry của Expo (thay cho Vite index.html + src/main.jsx)
-registerRootComponent(App);
+export { default as EventHubApp } from "./EventHubApp.jsx";
+export { FLOW, SCREENS } from "./screens.js";
